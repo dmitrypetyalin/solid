@@ -1,12 +1,10 @@
-package domain;
-
-import domain.task3.Shape;
+package domain.task3;
 
 /**
  * @author PetSoft
  * @date 03.04.2024 22:46
  */
-public class Cube implements Shape {
+public class Cube implements aShape, vShape {
     private int edge;
 
     public Cube(int edge) {

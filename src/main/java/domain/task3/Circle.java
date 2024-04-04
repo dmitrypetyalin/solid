@@ -1,12 +1,10 @@
-package domain;
-
-import domain.task3.Shape;
+package domain.task3;
 
 /**
  * @author PetSoft
  * @date 03.04.2024 22:45
  */
-public class Circle implements Shape {
+public class Circle implements aShape {
     private double radius;
 
     public Circle(double radius) {
@@ -16,10 +14,5 @@ public class Circle implements Shape {
     @Override
     public double area() {
         return 2 * 3.14 * radius;
-    }
-
-    @Override
-    public double volume() {
-        throw new UnsupportedOperationException();
     }
 }

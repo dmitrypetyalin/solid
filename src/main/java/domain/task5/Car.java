@@ -1,13 +1,13 @@
-package domain;
+package domain.task5;
 
 /**
  * @author PetSoft
  * @date 03.04.2024 22:48
  */
 public class Car {
-    private PetrolEngine engine;
+    private Engine engine;
 
-    public Car(PetrolEngine engine) {
+    public Car(Engine engine) {
         this.engine = engine;
     }
 

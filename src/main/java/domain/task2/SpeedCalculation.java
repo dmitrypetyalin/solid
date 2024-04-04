@@ -1,4 +1,4 @@
-import domain.Vehicle;
+package domain.task2;
 
 /**
  * @author PetSoft
@@ -6,9 +6,9 @@ import domain.Vehicle;
  */
 public class SpeedCalculation {
     public double calculateAllowedSpeed(Vehicle vehicle) {
-        if (vehicle.getType().equalsIgnoreCase("domain.Car")) {
+        if (vehicle.getType().equalsIgnoreCase("Car")) {
             return vehicle.getMaxSpeed() * 0.8;
-        } else if (vehicle.getType().equalsIgnoreCase("domain.Bus")) {
+        } else if (vehicle.getType().equalsIgnoreCase("Bus")) {
             return vehicle.getMaxSpeed() * 0.6;
         }
         return 0.0;

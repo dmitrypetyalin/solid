@@ -1,6 +1,4 @@
-package domain;
-
-import domain.task1.Employee;
+package domain.task1;
 
 /**
  * @author PetSoft

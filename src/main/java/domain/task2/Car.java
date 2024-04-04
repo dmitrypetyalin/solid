@@ -1,4 +1,4 @@
-package domain;
+package domain.task2;
 
 /**
  * @author PetSoft

@@ -1,20 +1,21 @@
-package domain;
-
-import domain.Rectangle;
+package domain.task4;
 
 /**
  * @author PetSoft
  * @date 04.04.2024 9:41
  */
 public class Square extends Rectangle {
-    @Override
-    public void setWidth(int width) {
-        super.width = width;
-        super.height = width;
+    public Square(int edge) {
+        super(edge, edge);
     }
+
+    public void setSize(int edge) {
+        super.setHeight(edge);
+        super.setWidth(edge);
+    }
+
     @Override
-    public void setHeight(int height) {
-        super.width = height;
-        super.height = height;
+    public int area() {
+        return super.area();
     }
 }

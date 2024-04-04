@@ -1,4 +1,4 @@
-package base;
+package domain.task3;
 
 /**
  * @author PetSoft
@@ -6,5 +6,6 @@ package base;
  */
 public interface Shape {
     double area();
+
     double volume();
 }
